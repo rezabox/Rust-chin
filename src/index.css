@@ -1,13 +1,33 @@
+@import url("https://v1.fontapi.ir/css/Vazir");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+@import url("https://smll.ir/gitcdnfontiransans");
+
 body {
+  direction: rtl;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.header {
+  font-family: Vazir, sans-serif;
+}
+.headerMenu {
+  font-family: Vazir, sans-serif;
+}
+.sub_title {
+  font-family: Vazir, sans-serif;
+  font-weight: 400;
+}
+.down_title {
+  font-family: dana, IRANSans, Tahoma, sans;
+  font-weight: 400;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
