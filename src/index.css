@@ -13,7 +13,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.header,.headerMenu,.product{
+.header,.headerMenu,.product,.page-builder{
   font-family: Vazir, sans-serif;
 }
 
@@ -32,6 +32,7 @@ code {
   font-family: Vazir, sans-serif;
   padding-right: 22%;
 }
+
 
 @tailwind base;
 @tailwind components;

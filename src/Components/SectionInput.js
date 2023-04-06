@@ -21,7 +21,7 @@ function SectionInput() {
             <button className="mb-4  h-[2vh]">
               <i className="bi bi-search hover:bg-hoverSearch-color transition-colors  mr-[60%] mt-[40%] text-xl bg-green-oil py-2 px-4 rounded-sm text-white"></i>
             </button>
-            <div className="option absolute flex h-9 mt-1 mr-1">
+            <div className="option absolute flex h-8 mt-1 mr-1">
               <button className="product text-base px-4 text-color-selectBox bg-back-selectBox rounded-sm  ">همه محصولات<span className="text-sm"><i class="bi bi-chevron-down mr-2"></i></span></button>
             </div>
           </div>
