@@ -13,12 +13,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.header {
+.header,.headerMenu,.product{
   font-family: Vazir, sans-serif;
 }
-.headerMenu {
-  font-family: Vazir, sans-serif;
-}
+
 .sub_title {
   font-family: Vazir, sans-serif;
   font-weight: 400;
@@ -26,6 +24,13 @@ code {
 .down_title {
   font-family: dana, IRANSans, Tahoma, sans;
   font-weight: 400;
+}
+.product{
+  font-family: dana, IRANSans, Tahoma, sans;
+}
+#first_name{
+  font-family: Vazir, sans-serif;
+  padding-right: 22%;
 }
 
 @tailwind base;
