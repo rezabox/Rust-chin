@@ -1,3 +1,4 @@
+import CardOrigin from "./Components/CardTitle";
 import Header from "./Components/Header";
 import HeaderMenu from "./Components/HeaderMenu";
 import SectionInput from "./Components/SectionInput";
@@ -12,6 +13,7 @@ function App() {
        <br/>
        <br/>
        <SectionPage/>
+       <CardOrigin/>
     </div> 
   );
 }

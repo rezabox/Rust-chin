@@ -17,11 +17,11 @@ code {
   font-family: Vazir, sans-serif;
 }
 
-.sub_title {
+.sub_title{
   font-family: Vazir, sans-serif;
   font-weight: 400;
 }
-.down_title {
+.down_title,.header_title{
   font-family: dana, IRANSans, Tahoma, sans;
   font-weight: 400;
 }
