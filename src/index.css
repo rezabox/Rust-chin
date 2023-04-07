@@ -10,10 +10,10 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.header,.headerMenu,.product,.page-builder{
+.header,.headerMenu,.product,.page-builder,.product_action{
   font-family: Vazir, sans-serif;
 }
 
@@ -28,9 +28,18 @@ code {
 .product{
   font-family: dana, IRANSans, Tahoma, sans;
 }
+.product_body,.product_footer{
+  font-family:IRANSans, Tahoma;
+}
 #first_name{
   font-family: Vazir, sans-serif;
   padding-right: 22%;
+}
+.cards,.card1{
+  width: 100%
+} 
+.footer_productPrice .text-white{
+  background:linear-gradient(180deg,#ffcf69,#ffb563); 
 }
 
 

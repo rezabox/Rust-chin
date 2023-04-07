@@ -13,6 +13,9 @@ module.exports = {
           'hoverSearch-color':'rgba(100,207,76,.94)',
           'color-selectBox':'#c9c9c9',
           'back-selectBox':'#f1f1f1;',
+          'card-color':'#212529',
+          'card-color-paragraph':'#959595',
+          'color-span-sale':'#fbcb65',
       },
       boxShadow: {
           'shadowInput':'0 5px 25px rgba(0,0,0,.1)',
