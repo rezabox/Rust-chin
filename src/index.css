@@ -34,10 +34,10 @@ code {
   font-family: dana, IRANSans, Tahoma, sans;
 }
 .product_body,
-.product_footer {
+.product_footer,.card_title2{
   font-family: IRANSans, Tahoma;
 }
-#first_name {
+#first_name{
   font-family: Vazir, sans-serif;
   padding-right: 22%;
 }

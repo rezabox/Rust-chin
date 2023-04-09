@@ -5,7 +5,7 @@ function CardOrigin(){
          <div className='svg_image'>
           <img src={Cup_Svg} className='bg-slate-100 p-4' alt="Icon" />
          </div>
-         <div className='header_title text-lg font-black mt-3 mr-5'>
+         <div className='header_title text-lg font-black mt-3 mr-5 text-color-input'>
             <h3>خرید قالب و افزونه های ویژه</h3>
          </div>
        </div>
