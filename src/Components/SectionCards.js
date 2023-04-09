@@ -7,23 +7,21 @@ import header4_image from '../images/26e3715bb4031857fffcb6291d02066d91ab0a3214a
 function SectionCards(){
  return(
      <section>
-        <div className="cards flex  p-10 ">
+        <div className="cards flex  p-10">
           <div className="card1 col-lg-3">
-              <div className="product1 px-3">
+              <div className="product px-3">
                   <div className="product_header bg-slate-50 rounded-md">
                     <div className="img_header">
                         <img src={header1_image} className='rounded-md' alt="header_1" />
                     </div>
-                  
                   <div className="product_body">
                     <h4 className='body_title text-xl p-3 hover:text-green-oil cursor-pointer transition-colors'>قالب فروشگاهی حرفه ای کاوه</h4>
                     <div className='body_category'>
                        <p className='text-base px-3 text-card-color-paragraph'>دسته بندی اصلی: <span className='body_category_inner'>قالب فروشگاهی وردپرس</span></p>
                     </div>
                   </div>
-                  <br/>
-                  <hr/>
-                  <div className="product_footer text-center p-3 mt-1">
+                  <br/>  
+                  <div className="product_footer text-center p-2 mt-1">
                     <div className="footer_productDetails flex align-center font-bold">
                       <div className="footer_productDetails_sale mr-2">
                         <span className='text-color-span-sale text-xl'>۱۶۱</span>
@@ -42,15 +40,16 @@ function SectionCards(){
                       </div>
                     </div>
                   </div>
-                    <div className="product_action flex align-center text-sm p-4 mt-1">
-                      <button className='product_button bg-green-oil hover:bg-[#7caf54] transition-colors text-white px-2 py-2 rounded'>افزدون به سبد خرید</button>
+                    <div className="product_action text-sm py-2  mt-2">
+                      <button className='product_button bg-green-oil hover:bg-[#7caf54] transition-colors text-white px-2 py-2  rounded'>افزدون به سبد خرید</button>
                       <a href="#" className='product_Link mr-6 bg-slate-200 hover:bg-slate-300 transition-colors px-3 py-2 rounded text-color-sub-title'>پیش نمایش</a>
+                      
                     </div>  
                   </div>
               </div> 
           </div>
           <div className="card1 col-lg-3">
-              <div className="product1 px-3">
+              <div className="product px-3">
                   <div className="product_header bg-slate-50 rounded-md">
                     <div className="img_header">
                         <img src={header2_image} className='rounded-md' alt="header_1" />
@@ -63,26 +62,25 @@ function SectionCards(){
                     </div>
                   </div>
                   <br/>
-                  <hr/>
-                  <div className="product_footer text-center p-3 mt-1">
+                  <div className="product_footer text-center px-2 mb-5  mt-[-6%]">
                     <div className="footer_productDetails flex align-center font-bold">
-                      <div className="footer_productDetails_sale mr-2">
+                      <div className="footer_productDetails_sale mr-2 mt-1">
                         <span className='text-color-span-sale text-xl'>۴۲۲</span>
                         <p className='text-base text-card-color-paragraph'>فروش</p>
                       </div>
-                      <div className='footer_productDetails_rate mr-5'>
+                      <div className='footer_productDetails_rate mr-5 mt-1'>
                          <span className='text-green-oil text-xl' >۹۰%</span>
                          <p className='text-base text-card-color-paragraph'>رضایت</p>
                       </div>
-                      <div className='footer_productPrice text-base mt-2 mr-5 border-r-2 border-slate-200 px-3'>
+                      <div className='footer_productPrice text-base mt-5 mr-5 border-r-2 border-slate-200 px-3'>
                         <div className='flex align-center justify-center'>
                          <span className='mt-2 font-normal'>۲۷۹,۰۰۰</span>
-                         <p className='text-card-color-paragraph mt-2 mr-1'>تومان</p>                        
+                         <p className='text-card-color-paragraph mt-2'>تومان</p>                        
                         </div> 
                       </div>
                     </div>
                   </div>
-                  <div className="product_action flex align-center text-sm p-2 mr-2 mt-3 ">
+                  <div className="product_action flex align-center text-sm p-2">
                       <button className='product_button bg-green-oil hover:bg-[#7caf54] transition-colors text-white px-2 py-2 rounded'>افزدون به سبد خرید</button>
                       <a href="#" className='product_Link mr-6 bg-slate-200 hover:bg-slate-300 transition-colors px-3 py-2 rounded text-color-sub-title'>پیش نمایش</a>
                     </div> 
@@ -90,7 +88,7 @@ function SectionCards(){
               </div> 
           </div>
           <div className="card1 col-lg-3">
-              <div className="product1 px-3">
+              <div className="product px-3">
                   <div className="product_header bg-slate-50 rounded-md">
                     <div className="img_header">
                         <img src={header3_image} className='rounded-md' alt="header_1" />
@@ -102,7 +100,6 @@ function SectionCards(){
                     </div>
                   </div>
                   <br/>
-                  <hr/>
                   <div className="product_footer text-center p-3">
                     <div className="footer_productDetails flex align-center font-bold">
                       <div className="footer_productDetails_sale mr-2">
@@ -122,7 +119,7 @@ function SectionCards(){
                       </div>
                     </div>
                   </div>
-                  <div className="product_action flex align-center text-sm p-4 mr-2 mt-1">
+                  <div className="product_action flex align-center text-sm p-2">
                       <button className='product_button bg-green-oil hover:bg-[#7caf54] transition-colors text-white px-2 py-2 rounded'>افزدون به سبد خرید</button>
                       <a href="#" className='product_Link mr-6 bg-slate-200 hover:bg-slate-300 transition-colors px-3 py-2 rounded text-color-sub-title'>پیش نمایش</a>
                     </div>  
@@ -130,7 +127,8 @@ function SectionCards(){
               </div> 
           </div>
           <div className="card1 col-lg-3">
-              <div className="product1 px-3 ">
+              <div className="product px-3 ">
+
                   <div className="product_header bg-slate-50 rounded-md">
                     <div className="img_header">
                         <img src={header4_image} className='rounded-md' alt="header_1" />
@@ -142,7 +140,6 @@ function SectionCards(){
                     </div>
                   </div>
                   <br/>
-                  <hr/>
                   <div className="product_footer text-center p-3 ">
                     <div className="footer_productDetails flex align-center font-bold">
                       <div className="footer_productDetails_sale mr-2">
@@ -162,7 +159,7 @@ function SectionCards(){
                       </div>
                     </div>
                   </div>
-                  <div className="product_action flex align-center text-sm p-4 mr-1">
+                  <div className="product_action flex align-center text-sm p-2">
                       <button className='product_button bg-green-oil hover:bg-[#7caf54] transition-colors  text-white px-2 py-2 rounded'>افزدون به سبد خرید</button>
                       <a href="#" className='product_Link mr-6 bg-slate-200 hover:bg-slate-300 transition-colors px-3 py-2 rounded text-color-sub-title'>پیش نمایش</a>
                     </div>  

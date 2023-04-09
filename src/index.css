@@ -48,7 +48,37 @@ code {
 .footer_productPrice .text-white {
   background: linear-gradient(180deg, #ffcf69, #ffb563);
 }
+.product_footer {
+  border-top: 1px dashed #959595 ;
+}
+.product{
+  position: relative;
+  width: 100%;
+}
+.product:hover .body_category {
+  visibility: hidden;
+}
+.card1 .product:hover  .product_footer {
+  margin-top: -17%;
+}
+.product_footer {
+  transition: 0.3s ease-in-out;
+}
 
+.product .product_action{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15px;
+  padding: 0px;
+  opacity: 0;
+  transition: 0.3s;
+}
+.product:hover .product_action{
+  height: 75px;
+  opacity: 1
+}  
 
 @tailwind base;
 @tailwind components;
