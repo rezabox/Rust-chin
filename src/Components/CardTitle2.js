@@ -11,7 +11,7 @@ function CardTitle2(){
               <h3 className='header_title mt-3 mr-5 text-base font-bold text-color-input'>جدیدترین قالب و افزونه های وردپرس</h3>
           </div>
           <div className='header_dropdown mt-3 '>
-             <div className="dropdown_select text-base flex align-center bg-slate-200 p-3 mt-[-10px] text-color-sub-title rounded">
+             <div className="dropdown_select cursor-pointer text-base flex align-center bg-slate-200 p-3 mt-[-10px] text-color-sub-title rounded">
                <i className="bi bi-grid-3x3-gap-fill"></i>
                <div className='dropdown_select_content'>
                   <span className='dropdown_select_content_text mr-2'>جدیدترین ها</span>
