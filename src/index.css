@@ -79,6 +79,24 @@ code {
   height: 75px;
   opacity: 1
 }  
+@media screen and (max-width:600px){
+  .product .style_details{
+    padding: 10px;
+  }
+  .product:hover .body_category {
+    visibility: visible;
+  }
+  .card1 .product:hover  .product_footer {
+    margin-top: 0%;
+  }
+  .product .product_action{
+    opacity: 1;
+    height: 30px;
+  }
+  .product:hover .product_action{
+    height: 30px;
+  }
+}
 
 @tailwind base;
 @tailwind components;
