@@ -6,7 +6,7 @@ function SectionInput() {
         <h1 className="sub_title text-xl md:text-4xl text-color-sub-title mb-[25px] mt-[60px]">
           بزرگترین فروشگاه قالب و افزونه وردپرس در ایران
         </h1>
-        <h2 className="down_title text-3xl  md:text-2xl text-down-title mb-[40px]">
+        <h2 className="down_title  text-3xl  md:text-2xl  text-down-title mb-[40px]">
           راهکار مطمئن و<span className="title_word text-green-oil">سریع </span>
           برای طراحی و توسعه وب سایت
         </h2>

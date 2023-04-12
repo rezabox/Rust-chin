@@ -5,12 +5,14 @@ import card4_Image from '../images/edit.jpg';
 function SectionPage(){
   return(
      <div className="page-builder">
-        <div className="row block md:flex align-center justify-between p-5">
+        <div className="row block  md:flex align-center justify-between p-5">
             <div className="col-lg-6">
               <div className="card1 px-2 relative flex align-center justify-center">
                    <div className="card1 Image">
                      <img src={card1_Image} className='hidden md:block' alt="" />
-                     <img src={card4_Image} className='block md:hidden mr-[1.75rem] rounded' alt=''/>
+                     <div className='image flex align-center justify-center '>
+                     <img src={card4_Image} className='md:hidden rounded' alt=''/>
+                     </div>
                    </div>
                    <div className='card1_details text-center   absolute block md:flex align-center justify-between w-[80%]  mt-[9%]'>
                        <div className='title_card1 text-white'>
