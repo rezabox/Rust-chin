@@ -89,6 +89,15 @@ code {
   .card1 .product:hover  .product_footer {
     margin-top: 0%;
   }
+  .product_action.action2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .action2 .button2{
+    width: 60%;
+  }
   .product .product_action{
     opacity: 1;
     height: 30px;

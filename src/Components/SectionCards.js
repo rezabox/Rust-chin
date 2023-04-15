@@ -13,7 +13,7 @@ function SectionCards(){
               <div className="product px-3">
                 <div className="product_header bg-slate-50 rounded-md">
                     <div className="img_header">
-                        <img src={header1_image} className='rounded-md ' alt="header_1" />
+                        <img src={header1_image} className='rounded-md' alt="header_1" />
                     </div>
             <div className='style_details '>
                   <div className="product_body md:px-6 md:py-3">
