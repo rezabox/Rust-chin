@@ -33,15 +33,15 @@ function SectionCard3(){
                 <div className='footer_productPrice text-base border-r-2 border-slate-200 '>
                   <div className='flex align-center mt-2 md:mr-2 mr-4'>
                    <span className='text-white rounded-sm'>۵۰%</span>
-                   <span className='font-normal md:mr-4 mr-3'><del>۲۹۸۰۰۰</del></span>
+                   <span className='font-normal'><del>۲۹۸۰۰۰</del></span>
                   </div>
-                   <span className='font-normal md:mr-2 mr-5'>۱۴۹,۰۰۰ <span className='text-card-color-paragraph'>تومان</span></span>
+                   <span className='font-normal '>۱۴۹,۰۰۰ <span className='text-card-color-paragraph'>تومان</span></span>
                 </div> 
               </div>
             </div>
             <div className="product_action action2 flex align-center text-sm p-2">
                 <button className='product_button button2 bg-green-oil hover:bg-[#7caf54] transition-colors text-white px-2 py-2 rounded'>افزدون به سبد خرید</button>
-                <a href="#" className='product_Link mr-6 bg-slate-200 hover:bg-slate-300 transition-colors px-3 py-2 rounded text-color-sub-title'>پیش نمایش</a>
+                <a href="#" className='product_Link mr-6 bg-slate-200 hover:bg-slate-300 transition-colors px-1 py-2 md:px-3 md:py-2 rounded text-color-sub-title'>پیش نمایش</a>
               </div> 
             </div>
         </div> 
@@ -81,7 +81,7 @@ function SectionCard3(){
             </div>
             <div className="product_action action2 flex align-center text-sm p-2">
                 <button className='product_button button2 bg-green-oil hover:bg-[#7caf54] transition-colors text-white px-2 py-2 rounded'>افزدون به سبد خرید</button>
-                <a href="#" className='product_Link mr-6 bg-slate-200 hover:bg-slate-300 transition-colors px-3 py-2 rounded text-color-sub-title'>پیش نمایش</a>
+                <a href="#" className='product_Link mr-6 bg-slate-200 hover:bg-slate-300 transition-colors px-1 py-2 md:px-3 md:py-2 rounded text-color-sub-title'>پیش نمایش</a>
               </div> 
             </div>
         </div> 
@@ -119,7 +119,7 @@ function SectionCard3(){
             </div>
             <div className="product_action action2 flex align-center text-sm p-2">
                 <button className='product_button button2 bg-green-oil hover:bg-[#7caf54] transition-colors text-white px-2 py-2 rounded'>افزدون به سبد خرید</button>
-                <a href="#" className='product_Link mr-6 bg-slate-200 hover:bg-slate-300 transition-colors px-3 py-2 rounded text-color-sub-title'>پیش نمایش</a>
+                <a href="#" className='product_Link mr-6 bg-slate-200 hover:bg-slate-300 transition-colors px-1 py-2 md:px-3 md:py-2 rounded text-color-sub-title'>پیش نمایش</a>
               </div>  
             </div> 
         </div> 
@@ -159,7 +159,7 @@ function SectionCard3(){
             </div>
             <div className="product_action action2 flex align-center text-sm p-2">
                 <button className='product_button button2 bg-green-oil hover:bg-[#7caf54] transition-colors text-white px-2 py-2 rounded'>افزدون به سبد خرید</button>
-                <a href="#" className='product_Link mr-6 bg-slate-200 hover:bg-slate-300 transition-colors px-3 py-2 rounded text-color-sub-title'>پیش نمایش</a>
+                <a href="#" className='product_Link mr-6 bg-slate-200 hover:bg-slate-300 transition-colors px-1 py-2 md:px-3 md:py-2 rounded text-color-sub-title'>پیش نمایش</a>
               </div>  
             </div> 
         </div> 
